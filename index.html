@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom mainepulation</title>
+    <style>
+        table,
+        td,
+        th {
+            border: 1px solid black;
+            width: 200px;
+
+            text-align: center;
+            color: black;
+        }
+    </style>
+
+<body>
+
+
+    <div>
+        <h1 id="hello-user">Result</h1>
+    </div>
+
+    <label for="full Name">Full Name</label>
+    <input type="Full Nmae" id="student-name" placeholder="Enter your Name"> <br> <br>
+
+    <label for="Roll Number">Roll Number</label>
+    <input type="Roll Number" id="roll-namber" placeholder="Enter your Number"> <br> <br>
+
+    <button onclick="result_student ()">Submit</button> <br> <br>
+<div id="result-popap">
+    <table>
+        <tr>
+            <th>Englhis</th>
+            <th><input type="English Marks " id="M-english"></th>
+        </tr>
+
+        <tr>
+            <th>Urdu</th>
+            <th><input type="Urdu Marks " id="M-urdu"></th>
+        </tr>
+
+        <tr>
+            <th>Islamiat</th>
+            <th><input type="Islamiat Marks " id="M-islamiat"></th>
+        </tr>
+
+        <tr>
+            <th>Math</th>
+            <th><input type="Math Marks " id="M-math"></th>
+        </tr>
+
+        <tr>
+            <th>Computer</th>
+            <th><input type="Computer Marks " id="M-computer"></th>
+        </tr>
+
+    </table> <br>
+
+    <button onclick="UserResult()">submit</button> <br> <br>
+
+    <table>
+
+        
+        <tr>
+            <th>total</th>
+            <th id="total-marks"></th>
+        </tr>
+
+        <tr>
+            <th>Grade</th>
+            <th id="Grade"></th>
+        </tr>
+
+        <tr>
+            <th>Percentage</th>
+            <th id="Percentage"></th>
+        </tr>
+
+    </table> 
+    
+</div>
+
+
+
+
+    <script src="./app.js"></script>
+</body>
+
+</html>
